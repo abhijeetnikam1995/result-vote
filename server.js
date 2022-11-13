@@ -8,7 +8,7 @@ var express = require('express'),
     methodOverride = require('method-override'),
     app = express(),
     server = require('http').Server(app),
-    io = require('socket.io')(server);
+    io = require('socket.io')(server); 
 
 io.set('transports', ['polling']);
 
